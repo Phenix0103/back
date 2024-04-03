@@ -6,8 +6,8 @@ pipeline {
     stages {
         stage('GIT') {
             steps {
-                git branch: 'cyrine-chouchane',
-                url: 'https://github.com/Phenix0103/5INFINI2-G1-Projet2.git'
+                git branch: 'main',
+                url: 'https://github.com/Phenix0103/back.git'
             }
         }
         stage('MVN CLEAN') {
